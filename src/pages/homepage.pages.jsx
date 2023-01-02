@@ -189,33 +189,33 @@ const Homepage = () => {
                 <section className='flex flex-col md:flex-row items-center justify-between md:justify-center md:space-x-10 w-full md:w-[85%] bg-[#FBFBFB] rounded-[25px] pt-[90px] pb-[30px] px-0 md:px-[40px] mb-10'>
                     <img src='/assets/treatmentHomeSvg.svg' className='md:w-[40%] w-[91%] mb-5 md:mb-0 mx-[20px]' />
 
-                    <div className='w-full md:w-[60%] w-full pl-4'>
+                    <div className='w-full md:w-[60%] flex flex-col items-center w-full'>
                         <div className='flex flex-col items-center mb-5'>
                             <span className='text-[36px] font-bold mb-2'>Home Treatments</span>
                             <img src='/assets/colorfulBorder.svg' />
                         </div>
-                        <p className='mb-20 w-full'>
+                        <p className='mb-20 w-full px-4'>
                             We can offer your treatments at your house. Just look for the treatment you wish and book your favourite day and hour to get it done.
-                            <br /> <br /> <span className='font-bold text-[20px]'>Note! </span><br /> The treatmts at your house tent to be more expensive then in the clinic. For <span className='font-bold'>traveling outside of London </span>will be <span className='font-bold'>additional charges </span> in top of the treatment/s price.
+                            <br /> <br /> <span className='font-bold text-[20px]'>Note! </span><br /> The treatments at your house tent to be more expensive then in the clinic. For <span className='font-bold'>traveling outside of London </span>will be <span className='font-bold'>additional charges </span> in top of the treatment/s price.
                         </p>
                         <div className='flex flex-row justify-center w-full'>
-                            <button className='bg-gradient-to-r from-[#E1C75C] to-[#C2A013] text-white font-bold text-[19px] w-[325px] py-3 px-3 rounded-lg hover:bg-gradient-to-l '>CHECK TREATMENTS</button>
+                            <button className='bg-gradient-to-r from-[#E1C75C] to-[#C2A013] text-white font-bold text-[19px] max-w-[325px] py-3 px-3 rounded-lg hover:bg-gradient-to-l '>CHECK TREATMENTS</button>
                         </div>
                     </div>
                 </section>
 
-                <section className=' flex flex-col items-center mb-10 w-full'>
-                    <div className='flex flex-col items-center mb-5 px-4'>
+                <section className=' flex flex-col items-center mb-10 w-full px-4'>
+                    <div className='flex flex-col items-center mb-5'>
                         <span className='text-[36px] font-bold mb-2'>PRODUCTS</span>
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
-                    <div className='flex flex-row items-center justify-center w-fit space-x-3 bg-[#F6F6F6] p-3 px-4 mb-10'>
+                    <div className='flex flex-row items-center justify-center w-fit space-x-3 bg-[#F6F6F6] py-3 px-4 mb-10'>
                         <button className='bg-[#fff] text-[#9D90D5]  from-[#E1C75C] to-[#C2A013] font-medium text-[18px] md:w-[225px] px-4 py-3 rounded-lg hover:text-white hover:bg-gradient-to-r'>NEW ARRIVALS</button>
                         <button className='bg-[#fff]  text-[#9D90D5]  from-[#E1C75C] to-[#C2A013] font-medium text-[18px] md:w-[225px] px-4 py-3 rounded-lg hover:text-white hover:bg-gradient-to-r'>MOST POPULAR</button>
                     </div>
-                    <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-center w-full bg-[#FCFCFC] pb-5 px-4'>
+                    <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-center w-full  pb-5'>
 
-                        <BsChevronLeft size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mr-3' />
+                        <BsChevronLeft size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons ' />
                         <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-[#E1C75C] border-hidden hover:border-solid mr-[25px] mb-[30px] shadow-lg cursor-pointer'>
                             <img src='/assets/sunScreenSvg.svg' className='mb-3' />
                             <span className='text-[20px] font-bold'>BIO WATERY SUN CREAM</span>
