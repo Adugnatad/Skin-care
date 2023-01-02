@@ -43,10 +43,10 @@ const Menu = () => {
                 </div>
             </div>
             }
-            <div className='flex flex-row items-center justify-between absolute z-20 top-[70px] w-[90%] mb-10'>
+            <div className='flex flex-row items-center justify-between absolute z-20 top-[70px] w-full mb-10 px-4'>
                 <div className='flex flex-row items-center space-x-3'>
                     <img src='/assets/logoSvg.svg' className='hidden tb:flex md:ml-[85px] ' />
-                    <span className='hidden tb:flex text-white font-medium text-[19px] '>TREATMENTS</span>
+                    <span className='hidden tb:flex text-white font-medium text-[22px] '>TREATMENTS</span>
                 </div>
                 <div className='hidden tb:flex flex-row items-center space-x-4 md:mr-[85px] xxl:absolute right-[100px]'>
                     <span className='text-white text-[16px] font-medium hover:cursor-pointer'>HOME</span>
