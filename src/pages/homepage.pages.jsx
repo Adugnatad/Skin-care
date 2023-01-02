@@ -135,7 +135,7 @@ const Homepage = () => {
                     disableOnInteraction: false,
                 }}
                 loop={true}
-                modules={[]}
+                modules={[Autoplay]}
                 className="mySwiper"
             >
                 <SwiperSlide>
