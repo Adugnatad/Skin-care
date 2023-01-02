@@ -41,9 +41,9 @@ const Homepage = () => {
                     <div className='flex  flex-row items-center justify-between space-x-2 mt-[10px] md:mt-[100px] tb:mt-[200px] w-full'>
                         {!menuOpen && <a onClick={() => swiper.slidePrev()} href="#carouselExampleControls" data-slide="prev" className='carousel-control-prev'><BsChevronLeft size={25} className=' border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mobile' /></a>}
                         <div className='flex flex-row items-center space-x-3'>
-                            <img src='/assets/selectedEllipse.png' className='border-[1px] border-[#E8C229] border-solid rounded-[50%] p-[2px]' />
-                            <img src='/assets/ellipse.png' />
-                            <img src='/assets/ellipse.png' />
+                            <img src='/assets/selectedEllipse.svg' />
+                            <img src='/assets/ellipse.svg' />
+                            <img src='/assets/ellipse.svg' />
                         </div>
                         {!menuOpen && <a onClick={() => swiper.slideNext()} href="#carouselExampleControls" data-slide="next" className='carousel-control-next'> <BsChevronRight size={25} className='border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] navigationIcons mobile' /></a>}
 
@@ -78,9 +78,9 @@ const Homepage = () => {
                     <div className='flex  flex-row items-center justify-between space-x-2 mt-[10px] md:mt-[100px] tb:mt-[200px] w-full'>
                         {!menuOpen && <a onClick={() => swiper.slidePrev()} href="#carouselExampleControls" data-slide="prev" className='carousel-control-prev'><BsChevronLeft size={25} className=' border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mobile' /></a>}
                         <div className='flex flex-row items-center space-x-3'>
-                            <img src='/assets/ellipse.png' />
-                            <img src='/assets/selectedEllipse.png' className='border-[1px] border-[#E8C229] border-solid rounded-[50%] p-[2px]' />
-                            <img src='/assets/ellipse.png' />
+                            <img src='/assets/ellipse.svg' />
+                            <img src='/assets/selectedEllipse.svg' />
+                            <img src='/assets/ellipse.svg' />
                         </div>
                         {!menuOpen && <a onClick={() => swiper.slideNext()} href="#carouselExampleControls" data-slide="next" className='carousel-control-next'> <BsChevronRight size={25} className='border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] navigationIcons mobile' /></a>}
 
@@ -114,9 +114,9 @@ const Homepage = () => {
                     <div className='flex  flex-row items-center justify-between space-x-2 mt-[10px] md:mt-[100px] tb:mt-[200px] w-full'>
                         {!menuOpen && <a onClick={() => swiper.slidePrev()} href="#carouselExampleControls" data-slide="prev" className='carousel-control-prev'><BsChevronLeft size={25} className=' border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mobile' /></a>}
                         <div className='flex flex-row items-center space-x-3'>
-                            <img src='/assets/ellipse.png' />
-                            <img src='/assets/ellipse.png' />
-                            <img src='/assets/selectedEllipse.png' className='border-[1px] border-[#E8C229] border-solid rounded-[50%] p-[2px]' />
+                            <img src='/assets/ellipse.svg' />
+                            <img src='/assets/ellipse.svg' />
+                            <img src='/assets/selectedEllipse.svg' />
                         </div>
                         {!menuOpen && <a onClick={() => swiper.slideNext()} href="#carouselExampleControls" data-slide="next" className='carousel-control-next'> <BsChevronRight size={25} className='border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] navigationIcons mobile' /></a>}
 
