@@ -7,8 +7,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import 'swiper/css';
-import { Autoplay } from "swiper";
+import "swiper/css/effect-fade";
+import { Autoplay, EffectFade } from "swiper";
 import { useSwiper } from 'swiper/react';
 
 
@@ -20,7 +20,7 @@ const Homepage = () => {
         const swiper = useSwiper();
         return (
             <div className='self-center md:self-start md:ml-[40px]' >
-                <div className='self-center text-center md:text-start md:self-start  md:pl-20 mt-3 md:mt-7 w-full'>
+                <div className='self-center text-center md:text-start md:self-start  md:pl-[20px] mt-3 md:mt-4 w-full'>
                     <span className='text-white text-[35px] tb:text-[55px] font-bold leading-none'>ALL YOU NEED <br />TO BE EPIC</span>
                     <p className='md:max-w-[550px] text-[17px] md:text-[16px] text-white mt-10 px-4 md:px-[0px] md:mt-5'>If your skin has started to show wear and tear from sun, aging, acne or other skin conditions there is much that can be done.</p>
                 </div>
@@ -135,7 +135,8 @@ const Homepage = () => {
                     disableOnInteraction: false,
                 }}
                 loop={true}
-                modules={[Autoplay]}
+                effect={"fade"}
+                modules={[Autoplay, EffectFade]}
                 className="mySwiper"
             >
                 <SwiperSlide>
@@ -144,7 +145,7 @@ const Homepage = () => {
                     </PageHero>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <PageHero background='/assets/homepageHeroSvg.svg' mobileBackground='/assets/mobileBackgroundSvg.svg'>
+                    <PageHero background='/assets/treatementsHeroSvg.svg' mobileBackground='/assets/mobileBackgroundSvg.svg'>
                         <Slide2 />
                     </PageHero>
                 </SwiperSlide>
@@ -170,12 +171,12 @@ const Homepage = () => {
                     </div>
                 </section>
 
-                <section className='mb-[-70px] z-10 flex flex-col items-center w-full'>
+                <section className='mb-[-90px] z-10 flex flex-col items-center w-full'>
                     <div className='flex flex-col items-center  mb-5'>
                         <span className='text-[36px] font-bold mb-2'>WHY US</span>
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
-                    <div className='flex flex-row overflow-x-auto scrolling-touch scrollbar-hide w-full items-center justify-start tb:justify-center px-4 py-4 bg-[#FCFCFC] pb-5'>
+                    <div className='flex flex-row overflow-x-auto scrolling-touch scrollbar-hide w-full items-center justify-start tb:justify-center px-4 py-4  pb-5'>
                         <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A] mr-4 '>
                             <img src='/assets/homeTreatmentSvg.svg' />
                             <div className='mt-[-20px]'>
@@ -207,20 +208,24 @@ const Homepage = () => {
                     </div>
                 </section>
 
-                <section className='flex flex-col md:flex-row items-center justify-between md:justify-center md:space-x-10 w-full md:w-[85%] bg-[#FBFBFB] rounded-[25px] pt-[90px] pb-[30px] px-0 md:px-[40px] mb-10'>
-                    <img src='/assets/treatmentHomeSvg.svg' className='md:w-[40%] w-[91%] mb-5 md:mb-0 mx-[20px]' />
+                <section className='flex flex-col md:flex-row items-center justify-between md:justify-center md:space-x-10 w-full md:w-[85%] bg-[#FBFBFB] rounded-[25px] pt-[110px] pb-[50px] px-0 md:px-[40px] mb-10'>
+                    <img src='/assets/treatmentHomeSvg.svg' className='md:w-[50%] w-[91%] mb-5 md:mb-0 mx-[20px]' />
 
                     <div className='w-full md:w-[60%] flex flex-col items-center w-full'>
+
                         <div className='flex flex-col items-center mb-5'>
                             <span className='text-[36px] font-bold mb-2'>Home Treatments</span>
                             <img src='/assets/colorfulBorder.svg' />
                         </div>
-                        <p className='mb-20 w-full px-4'>
-                            We can offer your treatments at your house. Just look for the treatment you wish and book your favourite day and hour to get it done.
-                            <br /> <br /> <span className='font-bold text-[20px]'>Note! </span><br /> The treatments at your house tent to be more expensive then in the clinic. For <span className='font-bold'>traveling outside of London </span>will be <span className='font-bold'>additional charges </span> in top of the treatment/s price.
-                        </p>
-                        <div className='flex flex-row justify-center w-full'>
-                            <button className='bg-gradient-to-r from-[#E1C75C] to-[#C2A013] text-white font-bold text-[19px] max-w-[325px] py-3 px-3 rounded-lg hover:bg-gradient-to-l '>CHECK TREATMENTS</button>
+                        <div className='flex flex-row items-center w-full mb-20'>
+                            <img src='/assets/separatorSvg.svg' className='h-[180px] mr-5' />
+                            <p className=' w-full px-4'>
+                                We can offer your treatments at your house. Just look for the treatment you wish and book your favourite day and hour to get it done.
+                                <br /> <br /> <span className='font-bold text-[20px]'>Note! </span><br /> The treatments at your house tent to be more expensive then in the clinic. For <span className='font-bold'>traveling outside of London </span>will be <span className='font-bold'>additional charges </span> in top of the treatment/s price.
+                            </p>
+                        </div>
+                        <div className='flex flex-row justify-center md:justify-start w-full'>
+                            <button className='bg-gradient-to-r from-[#E1C75C] to-[#C2A013] text-white font-bold text-[19px] md:w-[325px] py-3 px-3 rounded-lg hover:bg-gradient-to-l '>CHECK TREATMENTS</button>
                         </div>
                     </div>
                 </section>
@@ -236,8 +241,8 @@ const Homepage = () => {
                     </div>
                     <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-center w-full  pb-5'>
 
-                        <BsChevronLeft size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons ' />
-                        <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-[#E1C75C] border-hidden hover:border-solid mr-[25px] mb-[30px] shadow-lg cursor-pointer'>
+                        <BsChevronLeft size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mr-5' />
+                        <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C]  mr-[25px] mb-[30px] shadow-lg cursor-pointer'>
                             <img src='/assets/sunScreenSvg.svg' className='mb-3' />
                             <span className='text-[20px] font-bold'>BIO WATERY SUN CREAM</span>
                             <span className='text-[#C6C6C6] text-[14px]'>SPF50+ PA++++-P</span>
@@ -255,7 +260,7 @@ const Homepage = () => {
                                 <span className='font-semibold text-transparent text-[25px] bg-clip-text bg-gradient-to-b from-[#9D90D5] to-[#796AB8]'>$1,149.99</span>
                             </div>
                         </div>
-                        <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-[#E1C75C] border-hidden hover:border-solid mr-[25px] mb-[30px] shadow-lg cursor-pointer'>
+                        <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C] mr-[25px] mb-[30px] shadow-lg cursor-pointer'>
                             <img src='/assets/sunScreenSvg.svg' className='mb-3' />
                             <span className='text-[20px] font-bold'>BIO WATERY SUN CREAM</span>
                             <span className='text-[#C6C6C6] text-[14px]'>SPF50+ PA++++-P</span>
@@ -273,7 +278,7 @@ const Homepage = () => {
                                 <span className='font-semibold text-transparent text-[25px] bg-clip-text bg-gradient-to-b from-[#9D90D5] to-[#796AB8]'>$1,149.99</span>
                             </div>
                         </div>
-                        <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-[#E1C75C] border-hidden hover:border-solid  mb-[30px] shadow-lg cursor-pointer'>
+                        <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C]  mb-[30px] shadow-lg cursor-pointer'>
                             <img src='/assets/sunScreenSvg.svg' className='mb-3' />
                             <span className='text-[20px] font-bold'>BIO WATERY SUN CREAM</span>
                             <span className='text-[#C6C6C6] text-[14px]'>SPF50+ PA++++-P</span>
@@ -291,7 +296,7 @@ const Homepage = () => {
                                 <span className='font-semibold text-transparent text-[25px] bg-clip-text bg-gradient-to-b from-[#9D90D5] to-[#796AB8]'>$1,149.99</span>
                             </div>
                         </div>
-                        <BsChevronRight size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons ml-3' />
+                        <BsChevronRight size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons ml-5' />
                     </div>
                 </section>
 
@@ -301,7 +306,7 @@ const Homepage = () => {
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
                     <div className='flex flex-col items-center w-full'>
-                        <div className='shadow-lg relative flex flex-col items-center md:items-start w-[91%] md:w-[90%] rounded-[20px] py-4 mb-5'>
+                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[91%] md:w-[90%] rounded-[20px] py-4 mb-5'>
                             <div className='flex flex-col md:flex-row items-center md:items-start justify-between w-full pr-2 px-3'>
                                 <img src='/assets/Jessica L SVG.svg' />
                                 <span className='md:hidden text-[20px] absolute right-[10px]'>3 h ago</span>
@@ -325,7 +330,7 @@ const Homepage = () => {
                             </div>
                             <button className='self-center bg-gradient-to-r from-[#9D90D5] to-[#796AB8] text-white rounded-lg w-[225px] py-3 hover:bg-gradient-to-l'>VISIT PRODUCT</button>
                         </div>
-                        <div className='shadow-lg relative flex flex-col items-center md:items-start w-[91%] md:w-[90%] rounded-[20px] py-4 mb-5'>
+                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[91%] md:w-[90%] rounded-[20px] py-4 mb-5'>
                             <div className='flex flex-col md:flex-row items-center md:items-start justify-between w-full pr-2 px-3'>
                                 <img src='/assets/Jessica L SVG.svg' />
                                 <span className='md:hidden text-[20px] absolute right-[10px]'>3 h ago</span>
@@ -349,7 +354,7 @@ const Homepage = () => {
                             </div>
                             <button className='self-center bg-gradient-to-r from-[#9D90D5] to-[#796AB8] text-white rounded-lg w-[225px] py-3 hover:bg-gradient-to-l'>VISIT PRODUCT</button>
                         </div>
-                        <div className='shadow-lg relative flex flex-col items-center md:items-start w-[91%] md:w-[90%] rounded-[20px] py-4 mb-5'>
+                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[91%] md:w-[90%] rounded-[20px] py-4 mb-5'>
                             <div className='flex flex-col md:flex-row items-center md:items-start justify-between w-full pr-2 px-3'>
                                 <img src='/assets/Jessica L SVG.svg' />
                                 <span className='md:hidden text-[20px] absolute right-[10px]'>3 h ago</span>

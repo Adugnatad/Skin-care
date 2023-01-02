@@ -5,7 +5,7 @@ import RatingHeader from './ratingHeader'
 
 const PageContainer = ({ children }) => {
     return (
-        <div className='w-full bg-[#FAFAFA]'>
+        <div className='w-full'>
             <RatingHeader />
             <Menu />
             {children}
