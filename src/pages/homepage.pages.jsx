@@ -30,7 +30,14 @@ const Homepage = () => {
                         <button className='bg-gradient-to-r from-[#E1C75C] to-[#C2A013] text-[#fff] rounded-lg py-3 px-7 w-[249.61px] font-bold hover:bg-gradient-to-l md:mr-[30px] mb-[30px]'>VIEW PRODUCTS</button>
                     </div>
                 </div>
-                <div className='w-full flex flex-col items-center justify-center pb-3  px-3 absolute bottom-0'>
+                <div className='w-full flex flex-col items-center justify-center pb-3  px-3 absolute bottom-0 left-0 tb:bottom-20 tb:w-[60%] '
+                    style={{
+                        marginLeft: "auto",
+                        marginRight: "auto",
+                        left: "0",
+                        right: "0",
+                        textAlign: "center",
+                    }}>
                     <div className='flex  flex-row items-center justify-between space-x-2 mt-[10px] md:mt-[100px] tb:mt-[200px] w-full'>
                         {!menuOpen && <a onClick={() => swiper.slidePrev()} href="#carouselExampleControls" data-slide="prev" className='carousel-control-prev'><BsChevronLeft size={25} className=' border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mobile' /></a>}
                         <div className='flex flex-row items-center space-x-3'>
@@ -60,7 +67,14 @@ const Homepage = () => {
                         <button className='bg-gradient-to-r from-[#E1C75C] to-[#C2A013] text-[#fff] rounded-lg py-3 px-7 w-[249.61px] font-bold hover:bg-gradient-to-l md:mr-[30px] mb-[30px]'>VIEW PRODUCTS</button>
                     </div>
                 </div>
-                <div className='w-full flex flex-col items-center justify-center pb-3  px-4 absolute bottom-0'>
+                <div className='w-full flex flex-col items-center justify-center pb-3  px-3 absolute bottom-0 left-0 tb:bottom-20 tb:w-[60%] '
+                    style={{
+                        marginLeft: "auto",
+                        marginRight: "auto",
+                        left: "0",
+                        right: "0",
+                        textAlign: "center",
+                    }}>
                     <div className='flex  flex-row items-center justify-between space-x-2 mt-[10px] md:mt-[100px] tb:mt-[200px] w-full'>
                         {!menuOpen && <a onClick={() => swiper.slidePrev()} href="#carouselExampleControls" data-slide="prev" className='carousel-control-prev'><BsChevronLeft size={25} className=' border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mobile' /></a>}
                         <div className='flex flex-row items-center space-x-3'>
@@ -89,7 +103,14 @@ const Homepage = () => {
                         <button className='bg-gradient-to-r from-[#E1C75C] to-[#C2A013] text-[#fff] rounded-lg py-3 px-7 w-[249.61px] font-bold hover:bg-gradient-to-l md:mr-[30px] mb-[30px]'>VIEW PRODUCTS</button>
                     </div>
                 </div>
-                <div className='w-full flex flex-col items-center justify-center pb-3  px-4 absolute bottom-0'>
+                <div className='w-full flex flex-col items-center justify-center pb-3  px-3 absolute bottom-0 left-0 tb:bottom-20 tb:w-[60%] '
+                    style={{
+                        marginLeft: "auto",
+                        marginRight: "auto",
+                        left: "0",
+                        right: "0",
+                        textAlign: "center",
+                    }}>
                     <div className='flex  flex-row items-center justify-between space-x-2 mt-[10px] md:mt-[100px] tb:mt-[200px] w-full'>
                         {!menuOpen && <a onClick={() => swiper.slidePrev()} href="#carouselExampleControls" data-slide="prev" className='carousel-control-prev'><BsChevronLeft size={25} className=' border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mobile' /></a>}
                         <div className='flex flex-row items-center space-x-3'>
@@ -114,7 +135,7 @@ const Homepage = () => {
                     disableOnInteraction: false,
                 }}
                 loop={true}
-                modules={[Autoplay]}
+                modules={[]}
                 className="mySwiper"
             >
                 <SwiperSlide>
