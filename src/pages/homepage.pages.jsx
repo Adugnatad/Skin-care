@@ -242,7 +242,7 @@ const Homepage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='flex flex-row space-x-4 items-center md:pr-4 pr-1'>
+                        <div className='flex flex-row space-x-4 items-center md:pr-4'>
                             <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A] mr-4'>
                                 <img src='/assets/homeTreatmentSvg.svg' />
                                 <div className='mt-[-20px]'>
@@ -255,7 +255,7 @@ const Homepage = () => {
                 </section>
 
                 <section className='flex flex-col ft:flex-row items-center justify-between  md:mx-[94px] md:px-[50px] bg-[#FBFBFB] rounded-[25px] pt-[110px] pb-[50px] px-5  mb-10'>
-                    <img src='/assets/treatmentHomeSvg.svg' className='md:w-fit w-full mb-5 md:mb-0 mr-[20px] md:mr-[50px]' />
+                    <img src='/assets/treatmentHomeSvg.svg' className='md:w-fit w-full mb-5 md:mb-0 mx-[20px] md:mr-[50px]' />
 
                     <div className='flex flex-col items-center'>
 
@@ -263,7 +263,7 @@ const Homepage = () => {
                             <span className='text-[36px] font-bold mb-2'>Home Treatments</span>
                             <img src='/assets/colorfulBorder.svg' />
                         </div>
-                        <div className='flex flex-row items-center  mb-20'>
+                        <div className='flex flex-row items-center  mb-20 mx-[9px] md:mx-0'>
                             <img src='/assets/separatorSvg.svg' className='hidden md:flex h-[180px] mr-5' />
                             <p className=' w-full md:px-4'>
                                 We can offer your treatments at your house. Just look for the treatment you wish and book your favourite day and hour to get it done.
