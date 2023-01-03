@@ -172,12 +172,12 @@ const Homepage = () => {
                 </section>
 
 
-                <section className=' mb-[-90px] z-10 flex flex-col items-center md:px-[144px] w-full px-4'>
+                <section className=' mb-[-90px] z-10 flex flex-col items-center md:px-[100px] w-full px-4'>
                     <div className='flex flex-col items-center  mb-[60px]'>
                         <span className='text-[36px] font-bold mb-2'>WHY US</span>
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
-                    <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-between w-full  pb-5'>
+                    <div className=' flex flex-row overflow-x-auto  scrolling-touch scrollbar-hide items-center justify-start tb:justify-between w-full  pb-5'>
                         <div className='flex flex-row space-x-4 items-center md:pr-4 pl-1'>
                             <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A] mr-4'>
                                 <img src='/assets/homeTreatmentSvg.svg' />
