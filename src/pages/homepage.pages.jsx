@@ -286,7 +286,7 @@ const Homepage = () => {
                         <button className='bg-[#fff]  text-[#9D90D5]  from-[#E1C75C] to-[#C2A013] font-medium text-[18px] md:w-[225px] px-4 py-3 rounded-lg hover:text-white hover:bg-gradient-to-r'>MOST POPULAR</button>
                     </div>
                     <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-between w-full mx-[30px] pb-5'>
-                        <div className='flex flex-row items-center mr-[25px]'>
+                        <div className='flex flex-row items-center mr-[25px] ml-3 md:ml-0'>
                             <BsChevronLeft size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mr-5' />
                             <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C] mb-[30px] shadow-lg cursor-pointer'>
                                 <img src='/assets/sunScreenSvg.svg' className='mb-3' />
