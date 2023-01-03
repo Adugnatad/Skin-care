@@ -171,46 +171,9 @@ const Homepage = () => {
                     </div>
                 </section>
 
-                <section className='hidden mb-[-90px] z-10 flex flex-col items-center md:px-[144px] w-full px-4'>
-                    <div className='flex flex-col items-center  mb-5'>
-                        <span className='text-[36px] font-bold mb-2'>WHY US</span>
-                        <img src='/assets/colorfulBorder.svg' />
-                    </div>
-                    <div className='flex flex-row overflow-x-auto scrolling-touch scrollbar-hide w-full md:w-full items-center justify-start md:justify-between md:px-1  py-4 px-4  bg-yellow-100  pb-5'>
-                        <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A] mr-4'>
-                            <img src='/assets/homeTreatmentSvg.svg' />
-                            <div className='mt-[-20px]'>
-                                <span className='font-semibold text-[17px] text-[#3F3F3F]'>Home treatments</span>
-                                <p className='text-[14px] text-[#3F3F3F] mt-3'>We are focused on bringing affordable, and quality healthcare to your doorstep,</p>
-                            </div>
-                        </div>
-                        <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A] mr-4'>
-                            <img src='/assets/clinicTreatmentSvg.svg' />
-                            <div className='mt-[-20px]'>
-                                <span className='font-semibold text-[17px] text-[#3F3F3F]'>Clinic Treatments</span>
-                                <p className='text-[14px] text-[#3F3F3F] mt-3'>Fancy for a walk in central of London, come and visit us to own your look.</p>
-                            </div>
-                        </div>
-                        <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A] mr-4'>
-                            <img src='/assets/ukShippingSvg.svg' />
-                            <div className='mt-[-20px]'>
-                                <span className='font-semibold text-[17px] text-[#3F3F3F]'>UK Shipping</span>
-                                <p className='text-[14px] text-[#3F3F3F] mt-3'>Our products are available for delivery anywhere in United Kingdom.</p>
-                            </div>
-                        </div>
-                        <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A]'>
-                            <img src='/assets/2LanguagesSvg.svg' />
-                            <div className='mt-[-20px]'>
-                                <span className='font-semibold text-[17px] text-[#3F3F3F]'>2 Languages</span>
-                                <p className='text-[14px] text-[#3F3F3F] mt-3'>English and Romanian</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
 
                 <section className=' mb-[-90px] z-10 flex flex-col items-center md:px-[144px] w-full px-4'>
-                    <div className='flex flex-col items-center  mb-5'>
+                    <div className='flex flex-col items-center  mb-[60px]'>
                         <span className='text-[36px] font-bold mb-2'>WHY US</span>
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
@@ -259,7 +222,7 @@ const Homepage = () => {
 
                     <div className='flex flex-col items-center'>
 
-                        <div className='flex flex-col items-center mb-5'>
+                        <div className='flex flex-col items-center self-start ml-10 mb-8'>
                             <span className='text-[36px] font-bold mb-2'>Home Treatments</span>
                             <img src='/assets/colorfulBorder.svg' />
                         </div>
@@ -277,7 +240,7 @@ const Homepage = () => {
                 </section>
 
                 <section className=' flex flex-col items-center mb-10 w-full md:w-[91%] px-4 md:px-0'>
-                    <div className='flex flex-col items-center mb-5'>
+                    <div className='flex flex-col items-center mb-10'>
                         <span className='text-[36px] font-bold mb-2'>PRODUCTS</span>
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
@@ -287,8 +250,8 @@ const Homepage = () => {
                     </div>
                     <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-between w-full mx-[30px] pb-5'>
                         <div className='flex flex-row items-center mr-[25px]'>
-                            <BsChevronLeft size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mr-5' />
-                            <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C] mb-[30px] shadow-lg cursor-pointer'>
+                            <BsChevronLeft size={25} className='hidden md:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mr-5' />
+                            <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C] mb-[30px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer'>
                                 <img src='/assets/sunScreenSvg.svg' className='mb-3' />
                                 <span className='text-[20px] font-bold'>BIO WATERY SUN CREAM</span>
                                 <span className='text-[#C6C6C6] text-[14px]'>SPF50+ PA++++-P</span>
@@ -308,7 +271,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className='flex flex-row space-x-4 items-center mr-[25px]'>
-                            <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C]  mb-[30px] shadow-lg cursor-pointer'>
+                            <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C]  mb-[30px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer'>
                                 <img src='/assets/sunScreenSvg.svg' className='mb-3' />
                                 <span className='text-[20px] font-bold'>BIO WATERY SUN CREAM</span>
                                 <span className='text-[#C6C6C6] text-[14px]'>SPF50+ PA++++-P</span>
@@ -328,7 +291,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className='flex flex-row space-x-4 items-center md:pr-4 pr-1'>
-                            <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C]  mb-[30px] shadow-lg cursor-pointer'>
+                            <div className='flex flex-col items-start w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C]  mb-[30px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer'>
                                 <img src='/assets/sunScreenSvg.svg' className='mb-3' />
                                 <span className='text-[20px] font-bold'>BIO WATERY SUN CREAM</span>
                                 <span className='text-[#C6C6C6] text-[14px]'>SPF50+ PA++++-P</span>
@@ -346,7 +309,7 @@ const Homepage = () => {
                                     <span className='font-semibold text-transparent text-[25px] bg-clip-text bg-gradient-to-b from-[#9D90D5] to-[#796AB8]'>$1,149.99</span>
                                 </div>
                             </div>
-                            <BsChevronRight size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons ml-5' />
+                            <BsChevronRight size={25} className='hidden md:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons ml-5' />
                         </div>
                     </div>
                 </section>
