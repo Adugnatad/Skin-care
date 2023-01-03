@@ -255,7 +255,7 @@ const Homepage = () => {
                 </section>
 
                 <section className='flex flex-col ft:flex-row items-center justify-between  md:mx-[94px] md:px-[50px] bg-[#FBFBFB] rounded-[25px] pt-[110px] pb-[50px] px-5  mb-10'>
-                    <img src='/assets/treatmentHomeSvg.svg' className='md:w-fit w-[88%] mb-5 md:mb-0 mr-[50px]' />
+                    <img src='/assets/treatmentHomeSvg.svg' className='md:w-fit w-full mb-5 md:mb-0 mr-[20px] md:mr-[50px]' />
 
                     <div className='flex flex-col items-center'>
 
