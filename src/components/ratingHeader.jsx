@@ -2,7 +2,7 @@ import React from 'react'
 
 const RatingHeader = () => {
     return (
-        <div className='hidden tb:flex flex-row items-center justify-between bg-[#3F3F3F42] w-[89%] rounded-b-lg px-3 mr-[50px] z-10 absolute'
+        <div className='hidden tb:flex flex-row items-center justify-between bg-[#3F3F3F42] w-[88%] rounded-b-lg px-3 mr-[50px] z-10 absolute'
             style={{
                 marginLeft: "auto",
                 marginRight: "auto",

@@ -43,7 +43,7 @@ const Menu = () => {
                 </div>
             </div>
             }
-            <div className='flex flex-row items-center justify-between absolute z-20 top-[70px] w-full mb-10 px-4'>
+            <div className='flex flex-row items-center justify-between absolute z-20 top-[70px] w-full mb-10 px-[35px]'>
                 <div className='flex flex-row items-center space-x-3'>
                     <img src='/assets/logoSvg.svg' className='hidden tb:flex md:ml-[85px] ' />
                     <span className='hidden tb:flex text-white font-medium text-[22px] '>TREATMENTS</span>
