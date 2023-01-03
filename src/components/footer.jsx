@@ -6,11 +6,11 @@ const Footer = () => {
 
         <div className='flex flex-col  relative w-full'>
             <img src='/assets/footerBackgroundSvg.svg' className='hidden ft:flex w-full ' />
-            <div className='hidden ft:flex ft:my-[0px] ft:absolute top-[50px] xxl:top-[80px] left-[100px] xxl:left-[140px]'>
+            <div className='hidden ft:flex ft:my-[0px] ft:absolute top-[50px] xxl:top-[80px] left-[85px] xxl:left-[125px]'>
                 <img src='/assets/logoSvg2.svg' className='w-[90%] md:w-full' />
             </div>
             <div className='flex flex-row flex-wrap items-center ft:items-start  bg-[#3F3F3F] p-3 ft:py-0 px-4 border-t-[5px] border-[#E8C229] ft:border-hidden ft:bg-transparent  bottom-[0px] justify-center ft:justify-between w-full'>
-                <div className='flex flex-col items-center ft:items-start w-full ft:w-fit ft:absolute top-[190px] xxl:top-[220px] left-[100px] xxl:left-[140px]'>
+                <div className='flex flex-col items-center ft:items-start w-full ft:w-fit ft:absolute top-[190px] xxl:top-[220px] left-[85px] xxl:left-[125px]'>
                     <img src='/assets/logoSvg2.svg' className='w-[60%] md:w-[40%] ft:hidden self-start md:self-center mb-5 mt-4' />
                     <p className='text-white text-[14px] font-semibold max-w-[522px] mb-7 md:mb-10'>You will be charged if you don't arrive in time or cancel your appointment within 24 h prior to your booking.</p>
                     <div className='flex flex-row items-center justify-between bg-[#FFFFFF0F] p-3 w-full md:w-[300px] cursor-pointer mb-10 rounded-lg'>

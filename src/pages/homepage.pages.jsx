@@ -276,7 +276,7 @@ const Homepage = () => {
                     </div>
                 </section>
 
-                <section className=' flex flex-col items-center mb-10 w-full md:w-[88%] px-1 pr-4 md:px-0'>
+                <section className=' flex flex-col items-center mb-10 w-full md:w-[91%] px-1 pr-4 md:px-0'>
                     <div className='flex flex-col items-center mb-5'>
                         <span className='text-[36px] font-bold mb-2'>PRODUCTS</span>
                         <img src='/assets/colorfulBorder.svg' />
@@ -286,7 +286,7 @@ const Homepage = () => {
                         <button className='bg-[#fff]  text-[#9D90D5]  from-[#E1C75C] to-[#C2A013] font-medium text-[18px] md:w-[225px] px-4 py-3 rounded-lg hover:text-white hover:bg-gradient-to-r'>MOST POPULAR</button>
                     </div>
                     <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-between w-full mx-[30px] pb-5'>
-                        <div className='flex flex-row space-x-4 items-center mr-[25px]'>
+                        <div className='flex flex-row items-center mr-[25px]'>
                             <BsChevronLeft size={25} className='hidden xl:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mr-5' />
                             <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C] mb-[30px] shadow-lg cursor-pointer'>
                                 <img src='/assets/sunScreenSvg.svg' className='mb-3' />
@@ -357,7 +357,7 @@ const Homepage = () => {
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
                     <div className='flex flex-col items-center w-full'>
-                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[93%] md:w-[85%] rounded-[20px] py-4 mb-5'>
+                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[93%] md:w-[88%] rounded-[20px] py-4 mb-5'>
                             <div className='flex flex-col md:flex-row items-center md:items-start justify-between w-full pr-2 px-3'>
                                 <img src='/assets/Jessica L SVG.svg' />
                                 <span className='md:hidden text-[20px] absolute right-[10px]'>3 h ago</span>
@@ -381,7 +381,7 @@ const Homepage = () => {
                             </div>
                             <button className='self-center bg-gradient-to-r from-[#9D90D5] to-[#796AB8] text-white rounded-lg w-[225px] py-3 hover:bg-gradient-to-l'>VISIT PRODUCT</button>
                         </div>
-                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[93%] md:w-[85%] rounded-[20px] py-4 mb-5'>
+                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[93%] md:w-[88%] rounded-[20px] py-4 mb-5'>
                             <div className='flex flex-col md:flex-row items-center md:items-start justify-between w-full pr-2 px-3'>
                                 <img src='/assets/Jessica L SVG.svg' />
                                 <span className='md:hidden text-[20px] absolute right-[10px]'>3 h ago</span>
@@ -405,7 +405,7 @@ const Homepage = () => {
                             </div>
                             <button className='self-center bg-gradient-to-r from-[#9D90D5] to-[#796AB8] text-white rounded-lg w-[225px] py-3 hover:bg-gradient-to-l'>VISIT PRODUCT</button>
                         </div>
-                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[93%] md:w-[85%] rounded-[20px] py-4 mb-5'>
+                        <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative flex flex-col items-center md:items-start w-[93%] md:w-[88%] rounded-[20px] py-4 mb-5'>
                             <div className='flex flex-col md:flex-row items-center md:items-start justify-between w-full pr-2 px-3'>
                                 <img src='/assets/Jessica L SVG.svg' />
                                 <span className='md:hidden text-[20px] absolute right-[10px]'>3 h ago</span>
