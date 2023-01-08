@@ -177,7 +177,7 @@ const Homepage = () => {
                         <span className='text-[36px] font-bold mb-2'>WHY US</span>
                         <img src='/assets/colorfulBorder.svg' />
                     </div>
-                    <div className=' flex flex-row overflow-x-auto  scrolling-touch scrollbar-hide items-center justify-start tb:justify-between w-full  pb-5'>
+                    <div className=' flex flex-row overflow-x-auto  scrolling-touch tb:scrollbar-hide items-center justify-start tb:justify-between w-full  pb-5'>
                         <div className='flex flex-row space-x-4 items-center md:pr-4 pl-1'>
                             <div className='flex-none md:flex flex-col items-start w-[290px] h-[220px] bg-[#FFFFFF] px-5 rounded-[20px] border-t-[3px] border-t-[#796AB8] shadow-lg cursor-pointer hover:bg-[#796AB81A] mr-4'>
                                 <img src='/assets/homeTreatmentSvg.svg' />
@@ -248,7 +248,7 @@ const Homepage = () => {
                         <button className='bg-[#fff] text-[#3F3F3F]  from-[#E1C75C] to-[#C2A013] font-medium text-[18px] md:w-[225px] px-4 py-3 rounded-lg hover:text-white hover:bg-gradient-to-r'>NEW ARRIVALS</button>
                         <button className='bg-[#fff]  text-[#3F3F3F]  from-[#E1C75C] to-[#C2A013] font-medium text-[18px] md:w-[225px] px-4 py-3 rounded-lg hover:text-white hover:bg-gradient-to-r'>MOST POPULAR</button>
                     </div>
-                    <div className=' flex flex-row overflow-x-auto scrolling-touch scrollbar-hide items-center justify-start tb:justify-between w-full mx-[30px] pb-5'>
+                    <div className=' flex flex-row overflow-x-auto scrolling-touch tb:scrollbar-hide md:scrollbar-show items-center justify-start tb:justify-between w-full mx-[30px] pb-5'>
                         <div className='flex flex-row items-center mr-[25px]'>
                             <BsChevronLeft size={25} className='hidden md:flex border-[1px] rounded-[50%] w-[40px] h-[40px] p-2 cursor-pointer hover:border-[#E8C229] hover:text-[#E8C229] navigationIcons mr-5' />
                             <div className='flex flex-col items-start  w-[365px] px-3 py-4 hover:bg-[#E1C75C1A] rounded-[20px] border-[1px] border-transparent border-solid hover:border-[#E1C75C] mb-[30px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer'>
